@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.jsystemtest</groupId>
 	<artifactId>jsystem-parent</artifactId>
-	<version>6.1.12-SNAPSHOT</version>
+	<version>6.1.13.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>jsystem-parent</name>
 	<organization>
@@ -251,14 +251,12 @@
 	</repositories>
 	<distributionManagement>
 		<repository>
-			<id>topq</id>
-			<name>RepositoryProxy</name>
-			<url>${topq.repository.rootUrl}/content/repositories/releases</url>
+			<id>internal-releases</id>
+			<url>${internal.release.repo.url}</url>
 		</repository>
 		<snapshotRepository>
-			<id>topq</id>
-			<name>RepositoryProxy</name>
-			<url>${topq.repository.rootUrl}/content/repositories/snapshots</url>
+			<id>internal-snapshots</id>
+			<url>${internal.snapshot.repo.url}</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<pluginRepositories>
