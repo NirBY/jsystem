@@ -20,7 +20,7 @@ echo # > .testPropertiesFile_Empty
 
 del .run.properties
 
-rem Already compiled with Java 11 no need for this workaround
+rem Already compiled with Java 25 no need for this workaround
 set ADD_MODULES_STR=
 
 set ANT_HOME=thirdparty\ant

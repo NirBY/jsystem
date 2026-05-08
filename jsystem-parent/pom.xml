@@ -29,8 +29,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<assembly.format>dir</assembly.format>
 		<topq.repository.rootUrl>https://maven.top-q.co.il</topq.repository.rootUrl>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.release>25</maven.compiler.release>
 	</properties>
 
 	<dependencies>

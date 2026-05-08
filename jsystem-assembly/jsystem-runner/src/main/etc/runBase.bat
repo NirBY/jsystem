@@ -18,7 +18,7 @@ if exist "%JAVA_HOME%\bin\java.exe" set _JAVACMD=%JAVA_HOME%\bin\java.exe
 set JSYSTEM_USED_CLASSPATH=%current_dir%/lib/jsystem-launcher.jar
 if not "%JSYSTEM_CUSTOMER_JARS%" == "" set JSYSTEM_USED_CLASSPATH=%JSYSTEM_USED_CLASSPATH%;%JSYSTEM_CUSTOMER_JARS%
 
-rem Already compiled with Java 11 no need for this workaround
+rem Already compiled with Java 25 no need for this workaround
 set ADD_MODULES_STR=
 
 :launch
