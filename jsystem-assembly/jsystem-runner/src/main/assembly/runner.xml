@@ -69,6 +69,12 @@
 			<outputFileNameMapping>${artifact.artifactId}.${artifact.extension}</outputFileNameMapping>
 			<includes>
 				<include>*:ant-contrib:*</include>
+				<include>*:nashorn-core:*</include>
+				<include>org.ow2.asm:asm:*</include>
+				<include>org.ow2.asm:asm-commons:*</include>
+				<include>org.ow2.asm:asm-tree:*</include>
+				<include>org.ow2.asm:asm-util:*</include>
+				<include>org.ow2.asm:asm-analysis:*</include>
 			</includes>
 		</dependencySet>
 		<dependencySet>

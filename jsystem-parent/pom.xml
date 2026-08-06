@@ -213,6 +213,12 @@
 				<artifactId>xml-apis</artifactId>
 				<version>1.4.01</version>
 			</dependency>
+			<!-- Standalone Nashorn for Ant javascript conditions (JDK-embedded Nashorn is unavailable in many runtimes) -->
+			<dependency>
+				<groupId>org.openjdk.nashorn</groupId>
+				<artifactId>nashorn-core</artifactId>
+				<version>15.4</version>
+			</dependency>
 		</dependencies>
 
 

@@ -173,6 +173,10 @@
 			<version>${project.version}</version>
 			<classifier>sources</classifier>
 		</dependency>
+		<dependency>
+			<groupId>org.openjdk.nashorn</groupId>
+			<artifactId>nashorn-core</artifactId>
+		</dependency>
 
 
 	</dependencies>
